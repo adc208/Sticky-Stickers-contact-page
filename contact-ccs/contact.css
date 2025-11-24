@@ -1,0 +1,146 @@
+/* CSS Document */
+
+body             
+{			
+font-family:arial, verdana, helvetica; 
+color:#000000; 
+font-size:14px; 
+background-color:rgb(207, 207, 207);
+}
+
+
+
+h1             
+{
+font-family:impact, sans-serif;
+color:rgb(255, 255, 255);
+font-size:60px;
+margin: 5px;
+outline: 1px solid black;
+}
+
+/* banner image */
+#head {
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+#head img {
+  display: block;
+  width: 100%;      
+  height: auto;     
+  object-fit: cover;
+}
+ul li {
+  color: white;
+  font-size: 40px;
+  list-style: none;
+  float: left;
+  float: none;
+
+}
+ 
+
+nav ul li a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: black;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: -20px;
+}
+
+
+nav {
+width: 100%;
+height: 40px;
+background-color:rgb(255, 255, 255);
+margin-bottom: 1px;
+outline: 1px solid black;
+
+}
+
+header {
+  text-align: left;
+  background-color: #000000;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-top: -5px;
+  width: 100%;
+  height: auto;
+}
+
+nav ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* Show text on hover */
+.image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact */
+h3 {
+  font-family: impact, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  text-align: center;
+margin-bottom: 10px;
+ 
+}
+
+.contact-info {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+
+.social {
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+
+.contact-image {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Product gallery layout */
+.our-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Each image container */
+.contact-image {
+  position: relative;
+  display: inline-block;
+}
+
+.team-image {
+  position: relative;
+  display: inline-block;
+}
